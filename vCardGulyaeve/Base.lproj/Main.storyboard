@@ -15,8 +15,27 @@
                     <view key="view" contentMode="scaleToFill" id="cOf-sK-aSF">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37W-ss-sJM">
+                                <rect key="frame" x="20" y="44" width="388" height="799"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Должность: Специалист 
+Уровень образования: Высшее профессиональное 
+Наименование направления подготовки и (или) специальности: МПГУ – Математический факультет, специальность «учитель информатики» 
+Преподаваемые учебные предметы, курсы, дисциплины (модули):
+«Основы робототехники на базе конструктора LEGO MINDSTORMS Education EV3»,
+«Преподавание курса «Основы робототехники»»,
+«Робототехническое моделирование на основе конструкторов VEX»,
+«Основы SMM: создание положительного имиджа организации в социальных сетях» 
+Общий стаж: с 2006 года 
+Педагогический стаж: с 2006 года.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="TrD-JG-akS"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="more" id="ziP-Rd-QVa"/>
                 </viewController>
@@ -31,14 +50,30 @@
                     <view key="view" contentMode="scaleToFill" id="Rc5-nB-TLp">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Soh-y8-b9L">
+                                <rect key="frame" x="20" y="44" width="388" height="799"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Адреса электронной почты
+GulyaevEN@edu.mos.ru
+GulyaevEN@temocenter.ru 
+Рабочий телефон
++7 495 651-92-95 
+Мобильный телефон
++7 925 123-59-63</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="5Vr-PJ-Ctj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="wSU-em-CkI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a4f-Gt-1ac" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1604" y="-503"/>
+            <point key="canvasLocation" x="1603.7383177570093" y="-503.45572354211669"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tIA-gp-qel">
@@ -91,9 +126,6 @@
     </scenes>
     <resources>
         <image name="IMG_3331" width="443.66665649414062" height="332.66665649414062"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
